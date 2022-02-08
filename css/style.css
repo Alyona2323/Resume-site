@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {	
+    border-top: 5px solid rgb(81,77,77);
+}
+
+header {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.top-menu li {	
+    font: 16px, 'Noticia Text',serif;
+    display: inline-block;	
+    padding: 0px 10px;	
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+.top-menu a {	
+    color: rgb(81,77,77);
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 20px;
+}
+
+h1 {	
+    color: rgb(81,77,77);
+    font: normal 80px/1.6em 'Noticia Text',serif;
+    margin-bottom: -25px; 
+}
+
+h2 {	
+    color: rgb(81,77,77);
+    font: normal  46px/1.2em 'Noticia Text',serif;
+	margin-bottom: 15px;
+}
+
+h3 {	
+    color: rgb(81,77,77);
+    font: normal 40px/1.2em 'Noticia Text',serif;
+    font-weight: 600;
+}
+
+h4 {	
+    color: rgb(81,77,77);
+    font: normal  25px/1.2em 'Noticia Text',serif;
+}
+
+h5 {	
+    color: rgb(81,77,77);
+    font: normal  20px/1.2em 'Noticia Text',serif;
+    margin-top: 25px;   
+}
+
+main img  {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 2px rgb(81,77,77);
+    /* Обтекание картинки текстом:  */
+    float: left; 
+    margin-right: 60px;
+}
+
+#pic {
+    margin-left: 300px;
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+/* Кнопки */
+
+input {
+    background-color: rgba(54, 160, 192, 0.822);	
+    border: 3px #2f2161;	
+    box-shadow:  0 0 5px 2px rgb(81,77,77);
+    border-radius: 50%;
+    height: 110px;	
+    width: 110px;
+    color: #fff;	
+    text-transform: uppercase;
+    font-size: normal 13px/1.2em 'Noticia Text',serif;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {	
+    border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+    border-style: solid;
+    border-width: 1px;
+    background: #050505;
+}
+
+.btn1:focus, .btn2:focus, .btn3:focus {	
+    background:rgb(15, 15, 15);
+    border-color:rgb(8, 0, 0) #333 #333 rgb(22, 21, 21);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn1:active, .btn2:active, .btn3:active {		
+    background:rgb(81,77,77);
+    border-color:rgb(14, 11, 11) #333 #333 rgb(12, 12, 12);
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    color:#fff;
+    font-size:14px;
+    z-index:-2;
+    background-color:rgb(81,77,77);
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+}
+
+footer > ul{
+    width: 960px;
+    position: fixed;
+    left:50%;
+    bottom:0;
+    margin-left:-450px;
+    padding-bottom: 35px;
+    z-index:-1;
+    flex-wrap: nowrap;
+}
+
+footer > ul > li{
+    width:30%;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer p, a {	
+    color: #fff;
+    margin-left: 50px;
+}
+
+.icon {
+    float: left; /* Обтекание картинки текстом */
+}
+
+footer img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: -35px;
+    display: flex;
+    cursor: pointer;
+}
+
+#desc {
+    margin-left: 18px;
+}
+
+ .social {
+    width: 40px; 
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px; 
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.socialicons {
+    margin-left: 40px;
+}
+
